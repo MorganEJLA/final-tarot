@@ -361,6 +361,7 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
     margin: 0 auto;
+    padding-bottom: 20px;
   }
   
   
@@ -399,6 +400,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding-bottom: 30px;
   }
   
   .further-reading h2 {
@@ -413,11 +415,12 @@ textarea {
     margin: 20px 0;
   }
 
-  .further-reading p{
+  .further-reading .article p{
     margin-right: 40px;
+    
   }
   .further-reading img{
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   
   /* ==========================================================================
@@ -613,8 +616,7 @@ input[type=button] {
     .container-flex {
       max-width: 640px;
       margin:0 auto;
-     /* flex-direction: row;
-     flex-wrap: nowrap; */
+    
     }
 
     h2{
@@ -651,7 +653,7 @@ input[type=button] {
      justify-content: flex-end;
    }
    nav ul li{
-     margin-right:20px;
+     margin-right:25px;
      
    }
     .header-divider {
@@ -714,7 +716,8 @@ input[type=button] {
       margin: 0;
     }
     /* Footer */
-    footer .container-flex {
+    footer .container {
+      max-height: 55%;
       width: 65%;
       margin: 100px 0;
     }
@@ -725,17 +728,21 @@ input[type=button] {
       align-items: center;
     }
     .social h4{
-      text-align:center;
+      margin-right: 20px;
+      align-content:center;
     }
     .social-icons p {
      margin-right: 35px;
      justify-content: space-between;
     }
+
+   
     footer .contact {
       margin-bottom: 0;
     }
   
     footer .copyright {
+     
       width: 100%;
     }
   
