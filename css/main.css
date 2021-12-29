@@ -125,7 +125,7 @@ textarea {
 
   .site-title{
     font-family: Josefin Slab, serif;
-    margin-left:30px;
+    margin-left:20px;
     font-size: 2em;
     font-style: italic;
 
@@ -138,25 +138,29 @@ textarea {
     
   }
   
-
+  
   img{
     width: 100%;
   }
-
+  
   figure {
     margin: 0;
   }
-
+  
   address {
     font-style:normal;
   }
   h3, 
   h4 {
-   font-family:Josefin Slab, serif;
+    font-family:Josefin Slab, serif;
   }
-   
- 
-
+  
+  
+  footer h4{
+    font-size: 1.5em;
+    
+  }
+  
   
   
 
@@ -227,12 +231,14 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-right: 40px;
     
   }
   
   nav li{
     font-size: 1.125em;
     list-style-type: none;
+    margin-right: 10px;
     
   }
   
@@ -249,42 +255,39 @@ textarea {
 
 
  
-  footer {
-    
-    flex-direction: column;
-   
-  }
-  
-
-  footer h4{
-    font-size: 1.5em;
-  }
-  
-  footer p {
-    margin: 0;
-  }
   
   footer .container {
+    flex-direction: column;
     width: 55%;
-    margin: 50px 0;
-  }
+    margin: 50px 20px;
+   align-content:center;
   
-  footer .contact {
-    margin-bottom: 50px;
+  }
+
+  
+
+  .contact, .social h4{
+    margin-bottom: 0;
+  }
+
+  .address p{
+    flex-flow:column wrap;
+    justify-content: center;
   }
   
   footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.75em;
   }
   
-  footer .social-icons p {
+  /* footer .social-icons p {
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-  }
+  } */
   
   footer .copyright {
     margin: 20px 0;
